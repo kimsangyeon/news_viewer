@@ -5,6 +5,9 @@ const NewsItemBlock = styled.div`
   display: flex;
   .thumbnail {
     margin-right: 1rem;
+    a img {
+      max-width: 200px;
+    }
   }
   .contents {
     h2 {
